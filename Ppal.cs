@@ -4,7 +4,12 @@
 	class Ppal {
 		static void Main()
 		{
-			Console.WriteLine( "Hello!" );
+			Output( "Hello!" );
+		}
+
+        static void Output(string msg)
+		{
+			Console.WriteLine( msg );
 		}
 	}
 }
