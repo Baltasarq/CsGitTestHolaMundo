@@ -8,8 +8,8 @@
 		}
 
         static void Output(string msg)
-		{
-			Console.WriteLine( msg );
+		{			
+            Console.WriteLine( msg );
 		}
 	}
 }
